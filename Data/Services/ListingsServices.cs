@@ -34,5 +34,10 @@ namespace Auctions.Data.Services
                 .FirstOrDefaultAsync(m => m.Id == id);
             return listing;
         }
+
+        public Task savechanges()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
